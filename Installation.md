@@ -40,7 +40,7 @@ if [[ "$(cat /etc/redhat-release | grep -o CentOS)" == "CentOS" ]]; then sudo yu
 `gvm` need to be installed.
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer > gvm-installer && chmod a+x gvm-installer && 
+curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer > gvm-installer && chmod a+x gvm-installer && ./gvm-installer
 source $HOME/.gvm/scripts/gvm
 ```
 
